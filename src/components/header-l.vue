@@ -25,23 +25,5 @@ export default {
     },
 }
 </script>
-<style scoped>
-a {
-    color: rgb(33, 33, 33);
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(33, 33, 33);
-}
-ul {
-    height: 36px;
-    display: flex;
-    align-items: center;
-    list-style: none;
-    box-sizing: border-box;
-}
-li {
-    list-style: none;
-    font-size: 14px;
-}
+<style >
 </style>

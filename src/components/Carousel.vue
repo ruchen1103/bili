@@ -5,7 +5,7 @@
                 <p class="bnj-txt txt-up">S10</p>
                 <img
                     class="bnj-gif"
-                    src="http://i0.hdslb.com/bfs/archive/3915dcb81c248ed689d361b9244a9ac70c38a944.png"
+                    src="../assets/S10.png"
                 />
                 <p class="bnj-txt txt-down">S10</p>
             </div>

@@ -1,4 +1,5 @@
 <template>
+    <!-- S10上下轮播图 -->
     <div class="libox">
         <a href="https://live.bilibili.com/6#/">
             <div class="loc-mc-box">

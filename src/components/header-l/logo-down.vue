@@ -1,4 +1,5 @@
 <template>
+    <!-- 导航栏logo下拉菜单 -->
     <div class="main">
         <div class="left">
             <a href="https://www.bilibili.com/v/douga/">

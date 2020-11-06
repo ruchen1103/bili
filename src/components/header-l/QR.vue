@@ -1,4 +1,5 @@
 <template>
+    <!-- 二维码 -->
     <a
         href="https://app.bilibili.com/?spm_id_from=333.999.b_696e7465726e6174696f6e616c486561646572.9"
     >

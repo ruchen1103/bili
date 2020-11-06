@@ -1,5 +1,6 @@
 <template>
     <ul>
+        <!-- 左侧导航栏 -->
         <li><main_logo></main_logo></li>
         <li><a href="https://www.bilibili.com/anime/">番剧</a></li>
         <li>

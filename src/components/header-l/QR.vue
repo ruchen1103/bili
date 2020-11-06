@@ -27,6 +27,7 @@ export default {
     padding: 0;
     width: 232px;
     height: 203px;
+    transform: translateX(-50%);
 }
 i {
     color: #00a1d6;

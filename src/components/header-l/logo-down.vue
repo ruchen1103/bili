@@ -177,6 +177,7 @@ img {
     display: flex;
     width: 671px;
     height: 375px;
+    transform: translateX(-19%);
 }
 .left {
     width: 223px;

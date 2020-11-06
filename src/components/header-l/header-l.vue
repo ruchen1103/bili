@@ -67,9 +67,13 @@ export default {
     },
 }
 </script>
-<style scoped>
+<style>
 iframe {
     width: 700px;
     height: 300px;
+    transform: translateX(-15%);
+}
+.el-dropdown-menu {
+    border: 0px;
 }
 </style>

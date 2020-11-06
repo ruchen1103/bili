@@ -3,8 +3,8 @@
         <span class="el-dropdown-link">
             <a href="https://www.bilibili.com/">
                 <i class="iconfont icon-bilibili1"></i>
-                <span class="txt"
-                    >主站
+                <span class="txt">
+                    主站
                     <i class="iconfont icon-xialaxiao"></i>
                 </span>
             </a>

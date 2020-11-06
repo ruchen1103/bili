@@ -129,17 +129,6 @@
 <script>
 export default {
     name: 'lodo_down',
-    data: {
-        active: '',
-    },
-    methods: {
-        mouseOver: function() {
-            this.active = 'background-color: #cccccc'
-        },
-        mouseLeave: function() {
-            this.active = ''
-        },
-    },
 }
 </script>
 <style scoped>

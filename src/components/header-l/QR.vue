@@ -2,14 +2,14 @@
     <a
         href="https://app.bilibili.com/?spm_id_from=333.999.b_696e7465726e6174696f6e616c486561646572.9"
     >
-        <el-dropdown placement="bottom">
+        <el-dropdown>
             <span class="el-dropdown-link">
                 <i class="iconfont icon-shouji"></i>
                 下载APP
             </span>
             <el-dropdown-menu slot="dropdown">
                 <el-dropdown-item>
-                    <div><img class="qrimg" src="../assets/qr.png" /></div>
+                    <img class="qrimg" src="../../assets/qr.png" />
                 </el-dropdown-item>
             </el-dropdown-menu>
         </el-dropdown>

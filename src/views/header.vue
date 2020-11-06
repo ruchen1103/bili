@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import header_l from '../components/header-l'
+import header_l from '../components/header-l/header-l'
 export default {
     name: 'header_top',
     components: {
@@ -17,7 +17,6 @@ export default {
 ul {
     height: 36px;
     display: flex;
-    align-items: center;
     list-style: none;
     box-sizing: border-box;
     margin-block-start: 1em;
@@ -38,5 +37,18 @@ a {
 }
 a:hover {
     color: rgb(33, 33, 33);
+}
+.el-dropdown-menu__item {
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+}
+.el-dropdown-menu {
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    border: 0;
 }
 </style>

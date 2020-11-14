@@ -1,35 +1,64 @@
 <template>
-    <div>
-        <header_l></header_l>
+    <div class="">
+        <div class="header"></div>
+        <div class="container">
+            <div class="center">
+                <form action=""></form><input type="text" class="inputing" /></form>
+            </div>
+            <div class="left"><header_l></header_l></div>
+            <div class="right"><header_r></header_r></div>
+        </div>
+        <div class="footer"></div>
     </div>
 </template>
 
 <script>
 import header_l from '../components/header-l/header-l'
+import header_r from '../components/header-r/header-r'
 export default {
     name: 'header_top',
     components: {
         header_l,
+        header_r,
     },
 }
 </script>
 <style>
-ul {
-    height: 36px;
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    line-height: 30px;
-    justify-content: space-evenly;
+.container {
+    padding-left: 600px;
+    padding-right: 340px;
 }
-li {
-    list-style: none;
+.left {
+    position: relative;
+    float: left;
+    margin-left: -100%;
+    right: 600px;
+    width: 600px;
+    overflow: hidden;
+}
+.right {
+    float: left;
+    max-width: 340px;
+    margin-right: -340px;
+    overflow: hidden;
+}
+.center {
+    float: left;
+    width: 100%;
+    height: 34px;
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+}
+.footer {
+    clear: both;
+}
+.inputing {
+    display: inline-block;
     font-size: 14px;
+    height: 34px;
+    border: 0px;
+    padding: 0;
+    outline: none;
 }
 a {
     color: rgb(33, 33, 33);
